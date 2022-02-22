@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#player > img, #computer > img{
+    max-width: 160px;
+    height: auto;
+    padding: 0px;
+    margin: 12px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.pClicked {
+    border: 5px solid olivedrab;
+    border-radius: 90px;
+}
+
+.cClicked {
+    border: 5px solid rgb(148, 21, 21);
+    border-radius: 90px;
+}
+
+p {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+}
+
+#arena {
+    display: flex;
+    justify-content: center;
+}
+
+#player, #computer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#player{
+    margin-right: 10px;
+    border: 10px solid olivedrab;
+}
+
+#computer{
+    margin-left: 10px;
+    border: 10px solid rgb(148, 21, 21);
+}
